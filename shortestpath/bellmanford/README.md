@@ -23,7 +23,7 @@ The Bellman Ford algorithm calculates the shortest path between one vertex and a
 
 ## Interface
 
-- The constructor __init__(self, graph_dict) should initialize the graph the class uses with graph_dict
+- The constructor __init__(self, graph_dict) should initialize self.graph as a new graph object using graph_dict
 - The function add_graph(self, graph_dict) sets the class graph variable to a new graph, initialized with graph_dict
 - The function bellman_ford(self, src) implements the Bellman Ford algorithm, returning a list of the vertices in the graph along with their associated distances from the vertex src.
   - If a vertex cannot be reached from the passed src vertex, its distance should be float("inf")
