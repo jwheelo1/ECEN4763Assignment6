@@ -33,6 +33,8 @@ graph_dict = {
     3: [(2, 2), (0, 9)]
 }
 ```
+- The function get_edges(self) should now return tuples of the form (vertex1, vertex2, weight)
+- The function get_weight(self, vertex1, vertex2) should return the weight on the edge between vertex1 and vertex2, or None if there is no such edge.
 - The function add_edge(self, vertex1, vertex2, weight) adds an edge between vertex 1 and vertex 2 with the given weight. If vertex1 or vertex2 are not yet in the graph, add them and then add the edge.
 - The function get_neighbors(self, node) returns all of the vertixes going out of the node passed in (return empty list if the graph is empty or if the node does not exist)
 
