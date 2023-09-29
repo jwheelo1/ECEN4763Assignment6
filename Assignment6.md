@@ -23,8 +23,9 @@ The main goal for this assignment is to learn how to write a Bellman Ford algori
 ### Student UTs
 
 - Your Unit Tests account for 20% of the overall grade for this assignment.
-- There must be at least 14 UTs for this assignment (every UT missed is an automatic -1)
+- There must be at least 28 UTs for this assignment (every UT missed is an automatic -1)
     - 14 UTs for Bellman Ford
+    - 14 UTs for Graph
 - All unit tests belong in the test folder and each file must begin with test i.e. (test_array.py)
 
 ### Code Coverage
