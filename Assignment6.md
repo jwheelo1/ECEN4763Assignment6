@@ -2,7 +2,7 @@
 
 ## Assignment Description
 
-In this assignment you will create a class for Bellman Ford based on your graph data structure. Note: you must support negative weights and be able to handle negatice cycles correctly. Please follow the guidelines located in the README.md.
+In this assignment you will create a class for the Bellman Ford based on your graph data structure. Note: you must support negative weights and detect negative cycles. Your graph data structure must be extended to include weights for the edges. Please follow the guidelines located in the README.md.
 
 ## Goal
 
@@ -23,9 +23,8 @@ The main goal for this assignment is to learn how to write a Bellman Ford algori
 ### Student UTs
 
 - Your Unit Tests account for 20% of the overall grade for this assignment.
-- There must be at least 28 UTs for this assignment (every UT missed is an automatic -1)
+- There must be at least 14 UTs for this assignment (every UT missed is an automatic -1)
     - 14 UTs for Bellman Ford
-    - 14 UTs for Graph (copied from assignment 3)
 - All unit tests belong in the test folder and each file must begin with test i.e. (test_array.py)
 
 ### Code Coverage
